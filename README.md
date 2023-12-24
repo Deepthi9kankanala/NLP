@@ -50,8 +50,9 @@ Text data often requires thorough preprocessing to clean and tokenize it effecti
 The solution uses a simple rule-based approach for sentiment analysis based on the presence of certain keywords ("good," "tasty"). This approach might not be accurate for complex sentiment analysis, especially when dealing with more nuanced sentiments.
 3.Entity Extraction: 
 The solution uses spaCy's entity recognition for extracting entities from text. While spaCy is effective for common entities, it might not capture domain-specific or rare entities accurately.
+ 
+#Discuss the technique used and the reason why you have chosen it.
 
-Discuss the technique used and the reason why you have chosen it.
 1.spaCy: The spaCy library is utilized for entity recognition and natural language processing. It provides an efficient way to extract entities and perform linguistic analysis.
 2.Counter: The Counter class is used to efficiently count the occurrences of different entities. This allows for quick extraction of the most frequent entities.
 3.Pandas: The pandas library is used to handle and manipulate data in tabular form, making it easier to create CSV files from processed data.
